@@ -1,5 +1,11 @@
 Repository for Solidabis routing code challenge.
 
+Toteutus: Windows, Node.js, React (create-react-app), JavaScript, Heroku
+
+Pyörii osoitteessa https://pacific-ocean-58553.herokuapp.com/
+
+Toteutusta varten kopioitu pohja karttaa ja sen interaktioita varten koodihaasteen sivuilla olevia .svg-tiedostoja ja kartta-komponentti. Kaikki logiikka toimii selaimessa. Lisätty reitiysvalinnat react-autosuggestin avulla. Reititystä varten pohjadatasta luodaan sivua ladatessa reitityskelpoinen "verkosto", jossa tiedot matkattavissa olevista pysäkkiväleistä ja niiden etäisyyksistä. Tätä verkostoa hyödynnetään reitityksessä dijkstra-tyyppisellä algoritmillä, joka laskee kaikki etäisyydet lähtöpaikasta muihin kohteisiin, ja näistä poimitaan reitityksen lopuksi määritettyä kohdetta vastaavat tiedot. Tiedot näytetään reittiohjeina (kokonaisetäisyys + etapit per käytetty linja) ja visualisoidaan kartalle alkuperäisen koodihaasteen linjojen mukaisilla väreillä luomalla reitistä svg linjojen kokoelma.
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
