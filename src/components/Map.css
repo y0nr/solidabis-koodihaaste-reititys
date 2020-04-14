@@ -1,0 +1,74 @@
+/* Linjojen sijainnit */
+.punainen {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.sininen {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.vihrea {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.keltainen {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.linja {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+
+.asemat {
+  z-index: 2;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.etaisyydet {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.karttaKuva {
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+}
+
+.tiet {
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+}
+
+.linja {
+  /* stroke-dasharray: 100 1000; */
+  /* stroke-dashoffset: 50; */
+  /* animation: lineMove 2s linear infinite forwards; */
+  /* animation: dash 5s linear infinite forwards;
+  animation-duration: 3600s;  */
+  stroke-linecap: round;
+}
+
+/* @keyframes dash {
+  to {
+    stroke-dashoffset: 180000;
+  }
+} */
