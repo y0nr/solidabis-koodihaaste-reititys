@@ -4,7 +4,9 @@ Toteutus: Windows, Node.js, React (create-react-app), JavaScript, Heroku
 
 Pyörii osoitteessa https://pacific-ocean-58553.herokuapp.com/
 
-Toteutusta varten kopioitu pohja karttaa ja sen interaktioita varten koodihaasteen sivuilla olevia .svg-tiedostoja ja kartta-komponentti. Kaikki logiikka toimii selaimessa. Lisätty reitiysvalinnat react-autosuggestin avulla. Reititystä varten pohjadatasta luodaan sivua ladatessa reitityskelpoinen "verkosto", jossa tiedot matkattavissa olevista pysäkkiväleistä ja niiden etäisyyksistä. Tätä verkostoa hyödynnetään reitityksessä dijkstra-tyyppisellä algoritmillä, joka laskee kaikki etäisyydet lähtöpaikasta muihin kohteisiin, ja näistä poimitaan reitityksen lopuksi määritettyä kohdetta vastaavat tiedot. Tiedot näytetään reittiohjeina (kokonaisetäisyys + etapit per käytetty linja) ja visualisoidaan kartalle alkuperäisen koodihaasteen linjojen mukaisilla väreillä luomalla reitistä svg linjojen kokoelma.
+Toteutusta varten kopioitu karttapohja ja sen toiminnallisuudet koodihaasteen kotisivulta, tarkemmin sanottuna tarvittavat svg-tiedostot ja kartta-komponentti.
+
+Kaikki sovelluksen logiikka toimii selaimessa. Lisätty reitiysvalinnat react-autosuggestin avulla. Reititystä varten pohjadatasta luodaan sivu ladatessa reitityskelpoinen "verkosto", jossa tiedot matkattavissa olevista pysäkkiväleistä ja niiden etäisyyksistä. Tätä verkostoa hyödynnetään reitityksessä dijkstra-tyyppisellä algoritmillä, joka laskee kaikki etäisyydet lähtöpaikasta muihin kohteisiin, ja näistä poimitaan reitityksen lopuksi määritettyä kohdetta vastaavat tiedot. Tiedot näytetään reittiohjeina (kokonaisetäisyys + etapit per käytetty linja) ja visualisoidaan kartalle alkuperäisen koodihaasteen linjojen mukaisilla väreillä luomalla reitistä svg linjojen kokoelma.
 
 ---
 
